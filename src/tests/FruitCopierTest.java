@@ -19,10 +19,10 @@ public class FruitCopierTest {
 		Collection<RedApple> redApples = new ArrayList<>();
 		redApples.add(new RedApple());
 		
-		int applesNewSize = 1;
+		int applesExpectedSize = 1;
 		FruitCopier copier = new FruitCopier();
 		copier.copyAll(redApples, apples);
-		
+		assertEquals(apples.size(), applesExpectedSize);
 	}
 
 }

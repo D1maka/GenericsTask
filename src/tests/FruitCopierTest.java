@@ -7,14 +7,14 @@ import java.util.Collection;
 
 import org.junit.Test;
 
-import task21.Apple;
-import task21.FruitCopier;
-import task21.RedApple;
+import task1.Apple;
+import task1.FruitCopier;
+import task1.RedApple;
 
 public class FruitCopierTest {
 
 	@Test
-	public void test() {
+	public void testRedApplesCollectionCopiedToEmptyApplesCollectionSizeSame() {
 		Collection<Apple> apples = new ArrayList<>();
 		Collection<RedApple> redApples = new ArrayList<>();
 		redApples.add(new RedApple());
@@ -24,5 +24,4 @@ public class FruitCopierTest {
 		copier.copyAll(redApples, apples);
 		assertEquals(apples.size(), applesExpectedSize);
 	}
-
 }

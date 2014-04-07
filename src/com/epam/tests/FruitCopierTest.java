@@ -1,4 +1,4 @@
-package tests;
+package com.epam.tests;
 
 import static org.junit.Assert.*;
 
@@ -7,9 +7,10 @@ import java.util.Collection;
 
 import org.junit.Test;
 
-import task1.Apple;
-import task1.FruitCopier;
-import task1.RedApple;
+import com.epam.generics.Apple;
+import com.epam.generics.FruitCopier;
+import com.epam.generics.RedApple;
+
 
 public class FruitCopierTest {
 

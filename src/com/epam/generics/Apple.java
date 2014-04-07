@@ -1,4 +1,4 @@
-package task1;
+package com.epam.generics;
 
 public class Apple extends Fruit implements Comparable<Apple> {
 

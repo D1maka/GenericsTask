@@ -1,4 +1,4 @@
-package tests;
+package com.epam.tests;
 
 import static org.junit.Assert.*;
 
@@ -7,7 +7,8 @@ import java.util.Collection;
 
 import org.junit.Test;
 
-import task1.ArrayToCollectionConverter;
+import com.epam.generics.ArrayToCollectionConverter;
+
 
 public class ArrayToCollectionConverterTest {
 	

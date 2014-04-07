@@ -1,4 +1,4 @@
-package task1;
+package com.epam.generics;
 
 import java.util.Collection;
 
